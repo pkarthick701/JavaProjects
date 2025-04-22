@@ -1,0 +1,92 @@
+Case 1:
+Input:
+Spearmen#10;Militia#30;FootArcher#20;LightCavalry#1000;HeavyCavalry#120
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+Militia#30;FootArcher#20;LightCavalry#1000;Spearmen#10;HeavyCavalry#120;
+-----------------------------------------------------------------------
+
+Case 2:
+Input:
+Spearmen#10;Militia#30;FootArcher#20;LightCavalry#499;HeavyCavalry#120
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+Militia#30;FootArcher#20;Spearmen#10;HeavyCavalry#120;LightCavalry#499;
+-----------------------------------------------------------------------
+
+Case 3:
+Input:
+Spearmen#10;Militia#30;FootArcher#20;LightCavalry#100;HeavyCavalry#121
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+Militia#30;FootArcher#20;Spearmen#10;HeavyCavalry#121;LightCavalry#100;
+-----------------------------------------------------------------------
+
+Case 4:
+Input:
+Spearmen#10;Militia#30;FootArcher#20;LightCavalry#100;HeavyCavalry#120
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+Militia#30;FootArcher#20;Spearmen#10;HeavyCavalry#120;LightCavalry#100;
+-----------------------------------------------------------------------
+
+Case 5:
+Input:
+Spearmen#10;Militia#30;FootArcher#20;LightCavalry#100;HeavyCavalry#60
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+There is no chance of winning
+-----------------------------------------------------------------------
+
+
+Case 6:
+Input:
+Spearmen#10;Militia#30;FootArcher#20;LightCavalry#100;HeavyCavalry#61
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+Militia#30;FootArcher#20;Spearmen#10;HeavyCavalry#61;LightCavalry#100;
+-----------------------------------------------------------------------
+
+Case 7:
+Input:
+Spearmen#10;Militia#30;FootArcher#20;LightCavalry#100;HeavyCavalry#59
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+There is no chance of winning
+-----------------------------------------------------------------------
+
+
+Case 8:
+Input:
+Militia#30;FootArcher#20;LightCavalry#100;HeavyCavalry#61
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+Both players should have 5 Platoons to proceed
+-----------------------------------------------------------------------
+
+Case 9:
+Input:
+
+Militia#10;Spearmen#10;FootArcher#1000;LightCavalry#120;CavalryArcher#100
+
+Output:
+Both players should have 5 Platoons to proceed
+-----------------------------------------------------------------------
+
+Case 10:
+Input:
+
+
+
+Output:
+Both players should have 5 Platoons to proceed
+-----------------------------------------------------------------------
+
